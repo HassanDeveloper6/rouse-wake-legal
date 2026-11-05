@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support · Rouse</title>
+<meta name="description" content="Help with the Rouse alarm app: common questions, subscriptions and contact.">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<style>
+  :root { color-scheme: light dark; --bg:#F5F2FB; --card:#FFFFFF; --fg:#17122E; --muted:#5E5780; --line:#E4DEF2; --pink:#E0186A; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0D0A1F; --card:#17122E; --fg:#F6F4FF; --muted:#A9A2C8; --line:#2A2350; --pink:#FF4F93; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, system-ui, sans-serif; -webkit-text-size-adjust:100%; }
+  header, main, footer { max-width:760px; margin:0 auto; padding-left:20px; padding-right:20px; }
+  header { display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; padding-top:24px; padding-bottom:8px; }
+  .brand { display:flex; align-items:center; gap:10px; color:var(--fg); text-decoration:none; font-weight:800; font-size:21px; letter-spacing:-.02em; }
+  .brand img { width:36px; height:36px; border-radius:9px; }
+  nav { display:flex; flex-wrap:wrap; gap:4px 16px; font-size:15px; }
+  nav a { color:var(--muted); text-decoration:none; }
+  nav a[aria-current] { color:var(--fg); font-weight:700; }
+  main { padding-top:24px; padding-bottom:56px; }
+  h1 { font-size:clamp(30px, 6vw, 40px); line-height:1.12; letter-spacing:-.02em; margin:0 0 8px; }
+  h2 { font-size:20px; line-height:1.3; margin:36px 0 8px; }
+  p, li { margin:0 0 12px; }
+  ol, ul { padding-left:22px; }
+  a { color:var(--pink); }
+  .muted { color:var(--muted); }
+  .lead { font-size:19px; color:var(--muted); margin-bottom:28px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:20px; padding:20px 22px; margin:16px 0; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:14px; margin-top:28px; }
+  .grid a { display:block; background:var(--card); border:1px solid var(--line); border-radius:20px; padding:18px 20px; color:var(--fg); text-decoration:none; }
+  .grid a strong { display:block; font-size:18px; margin-bottom:2px; }
+  .grid a span { color:var(--muted); font-size:15px; }
+  details { border-top:1px solid var(--line); padding:14px 0; }
+  details:last-of-type { border-bottom:1px solid var(--line); }
+  summary { cursor:pointer; font-weight:700; }
+  details p { margin:10px 0 0; color:var(--muted); }
+  footer { padding-bottom:40px; font-size:14px; color:var(--muted); border-top:1px solid var(--line); padding-top:20px; }
+</style>
+</head>
+<body>
+<header>
+  <a class="brand" href="./"><img src="icon.png" alt="" width="36" height="36">Rouse</a>
+  <nav aria-label="Pages"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="support.html" aria-current="page">Support</a><a href="delete-account.html">Delete account</a></nav>
+</header>
+<main>
+<h1>Support</h1>
+<p class="lead">Most answers are also in the app under Settings → Help.</p>
+<h2>Common questions</h2>
+<details><summary>Will my alarm ring if Rouse is closed?</summary><p>Yes. On iPhone with iOS 26 or later, Rouse uses Apple's system alarms, which ring even in Silent mode and when the app is closed. On older iPhones, keep Night mode on at bedtime and the ringer on. On Android, allow "Alarms &amp; reminders" and turn off battery optimisation. Settings → Alarm reliability walks you through it.</p></details>
+<details><summary>I pressed Stop on the lock screen. Why is it ringing again?</summary><p>That's on purpose. The alarm only stops for good when you finish your mission. Tap "Start mission" instead.</p></details>
+<details><summary>The photo check keeps failing.</summary><p>Turn on a light, get closer so the object fills the frame, and hold still. After three tries you can switch to a Math mission instead.</p></details>
+<details><summary>What is the wake-up check?</summary><p>A few minutes after your mission, Rouse asks "Still awake?". Tap within 60 seconds, or the alarm rings again. You can change the delay or turn it off per alarm.</p></details>
+<details><summary>How do I restore Rouse Pro on a new phone?</summary><p>Open the Pro screen and tap Restore. It works with the same Apple ID or Google account, no Rouse account needed.</p></details>
+<details><summary>How do I cancel my subscription?</summary><p>Subscriptions are managed by Apple or Google: Settings → your name → Subscriptions on iPhone, or Play Store → Payments &amp; subscriptions on Android.</p></details>
+<h2>Subscriptions and refunds</h2>
+<p>Rouse Pro is billed by Apple or Google. To cancel or change a plan:</p>
+<ul>
+  <li>iPhone: Settings → your name → Subscriptions, or <a href="https://apps.apple.com/account/subscriptions">apps.apple.com/account/subscriptions</a>.</li>
+  <li>Android: Google Play → profile → Payments &amp; subscriptions, or <a href="https://play.google.com/store/account/subscriptions">play.google.com/store/account/subscriptions</a>.</li>
+</ul>
+<p>Got a new phone? Open the Rouse paywall or Settings → Account and tap <strong>Restore purchases</strong>. Refunds are handled by Apple (<a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>) or Google Play under their policies.</p>
+<h2>Contact us</h2>
+<div class="card"><p>Use the support email on our App Store or Google Play page.</p></div>
+</main>
+<footer>© 2026 Rouse</footer>
+</body>
+</html>

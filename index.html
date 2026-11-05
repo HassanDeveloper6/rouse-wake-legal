@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The alarm you can’t sleep through · Rouse</title>
+<meta name="description" content="Rouse is an alarm clock that rings until you finish a quick wake-up mission.">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<style>
+  :root { color-scheme: light dark; --bg:#F5F2FB; --card:#FFFFFF; --fg:#17122E; --muted:#5E5780; --line:#E4DEF2; --pink:#E0186A; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0D0A1F; --card:#17122E; --fg:#F6F4FF; --muted:#A9A2C8; --line:#2A2350; --pink:#FF4F93; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, system-ui, sans-serif; -webkit-text-size-adjust:100%; }
+  header, main, footer { max-width:760px; margin:0 auto; padding-left:20px; padding-right:20px; }
+  header { display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; padding-top:24px; padding-bottom:8px; }
+  .brand { display:flex; align-items:center; gap:10px; color:var(--fg); text-decoration:none; font-weight:800; font-size:21px; letter-spacing:-.02em; }
+  .brand img { width:36px; height:36px; border-radius:9px; }
+  nav { display:flex; flex-wrap:wrap; gap:4px 16px; font-size:15px; }
+  nav a { color:var(--muted); text-decoration:none; }
+  nav a[aria-current] { color:var(--fg); font-weight:700; }
+  main { padding-top:24px; padding-bottom:56px; }
+  h1 { font-size:clamp(30px, 6vw, 40px); line-height:1.12; letter-spacing:-.02em; margin:0 0 8px; }
+  h2 { font-size:20px; line-height:1.3; margin:36px 0 8px; }
+  p, li { margin:0 0 12px; }
+  ol, ul { padding-left:22px; }
+  a { color:var(--pink); }
+  .muted { color:var(--muted); }
+  .lead { font-size:19px; color:var(--muted); margin-bottom:28px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:20px; padding:20px 22px; margin:16px 0; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:14px; margin-top:28px; }
+  .grid a { display:block; background:var(--card); border:1px solid var(--line); border-radius:20px; padding:18px 20px; color:var(--fg); text-decoration:none; }
+  .grid a strong { display:block; font-size:18px; margin-bottom:2px; }
+  .grid a span { color:var(--muted); font-size:15px; }
+  details { border-top:1px solid var(--line); padding:14px 0; }
+  details:last-of-type { border-bottom:1px solid var(--line); }
+  summary { cursor:pointer; font-weight:700; }
+  details p { margin:10px 0 0; color:var(--muted); }
+  footer { padding-bottom:40px; font-size:14px; color:var(--muted); border-top:1px solid var(--line); padding-top:20px; }
+</style>
+</head>
+<body>
+<header>
+  <a class="brand" href="./"><img src="icon.png" alt="" width="36" height="36">Rouse</a>
+  <nav aria-label="Pages"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="support.html">Support</a><a href="delete-account.html">Delete account</a></nav>
+</header>
+<main>
+<h1>The alarm you can’t sleep through.</h1>
+<p class="lead">Rouse rings until you finish a quick wake-up mission: solve math, snap an object or shake your phone. Free to start, Pro when you want more.</p>
+<div class="grid">
+  <a href="privacy.html"><strong>Privacy Policy</strong><span>What Rouse keeps on your phone, and the little it stores online.</span></a>
+  <a href="terms.html"><strong>Terms of Use</strong><span>The rules for using Rouse and Rouse Pro.</span></a>
+  <a href="support.html"><strong>Support</strong><span>Answers to common questions and how to reach us.</span></a>
+  <a href="delete-account.html"><strong>Delete your account</strong><span>Remove your account and backup.</span></a>
+</div>
+</main>
+<footer>© 2026 Rouse</footer>
+</body>
+</html>
