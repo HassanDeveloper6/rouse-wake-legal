@@ -57,7 +57,7 @@
 <h2>What we store online, and only if you choose</h2>
 <p>Waykin gives every install an anonymous ID (Firebase Authentication) so purchases and an optional backup can be linked to you without asking for any personal details.</p>
 <p>Push notifications: Waykin uses Google Firebase Cloud Messaging to deliver occasional messages. It gives this install a random device token and sends basic delivery diagnostics to Google. The token isn't linked to your email or account. Messages only appear if you allow notifications, and you can turn them off at any time in your phone's settings.</p>
-<p>If you choose Save my progress, we store your email address (to send you a sign-in link) and a backup of your alarms, wake-up history and settings in Google Firebase (Cloud Firestore). This is used only to restore your data on a new phone.</p>
+<p>If you create an account, your email address and password are handled by Google Firebase Authentication (the password is stored only in hashed form, never readable by us), and a backup of your alarms, wake-up history and settings is kept in Google Firebase (Cloud Firestore). This is used only to sign you in and restore your data on a new phone.</p>
 <p>You can delete your account and this backup at any time in Settings → Account → Delete account.</p>
 <h2>Purchases</h2>
 <p>Subscriptions are processed by Apple (App Store) or Google (Google Play). We never see your payment details.</p>
