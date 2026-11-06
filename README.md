@@ -1,6 +1,6 @@
-# Rouse — legal and support pages
+# Waykin — legal and support pages
 
-Public pages for the Rouse alarm app, served with GitHub Pages:
+Public pages for the Waykin alarm app, served with GitHub Pages:
 https://hassandeveloper6.github.io/rouse-wake-legal/
 
 | Page | URL | Used for |
